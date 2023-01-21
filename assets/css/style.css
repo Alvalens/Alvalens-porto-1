@@ -249,6 +249,7 @@ html {
 }
 .skill .container {
 	padding: 60px 0;
+	overflow: hidden;
 }
 
 #myCarousel {
@@ -270,7 +271,6 @@ html {
 #myCarousel {
 	margin-bottom: 0;
 	max-height: 250px;
-	overflow-y: hidden;
 }
 .carousel-control-prev:hover,
 .carousel-control-next:hover {
