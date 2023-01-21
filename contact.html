@@ -58,18 +58,18 @@
                         <form name="con-form">
                             <div class="form-group  mb-3">
                                 <label for="name">Name</label>
-                                <input type="text" class="form-control" id="name" placeholder="Enter your name"
-                                    name="name">
+                                <input type="text" class="form-control" id="name" placeholder="Enter your name" minlength="3" title="Please enter at least 3 characters"
+                                    name="name" required>
                             </div>
                             <div class="form-group  mb-3">
                                 <label for="email">Email</label>
-                                <input type="text" aria-describedby="email" class="form-control" id="email"
-                                    placeholder="example@gmail.com" name="email">
+                                <input type="email" aria-describedby="email" class="form-control" id="email"
+                                    placeholder="example@gmail.com" name="email" required>
                             </div>
                             <div class="mb-5">
                                 <label for="textarea" class="form-label">Message</label>
                                 <input type="text" class="form-control" id="exampleFormControlTextarea1" rows="3"
-                                    name="message" placeholder="Enter a message">
+                                    name="message" placeholder="Enter a message" required>
                             </div>
                     </div>
                     <div class="row text-center">
