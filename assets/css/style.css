@@ -240,6 +240,7 @@ body {
 }
 .skill .container {
 	padding: 60px 0;
+	overflow: hidden;
 }
 
 #myCarousel {
